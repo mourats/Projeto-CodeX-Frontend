@@ -1,14 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="codex">
+
 <head>
   <meta charset="UTF-8">
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="app.css">
-</head>
-<body ng-app="codex">
+  <title>Codex</title>
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- Angular JS -->
-  <script src="angular-1.7.2/angular.min.js"></script>
-  <!-- Aplicação -->
-  <script src="app.js"></script>
+  <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <script src="js/app.js"></script>
+  <script src="js/controllers/codexCtrl.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="collapse navbar-collapse" id="navbar-collapse-3">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a class="btn" type="submit" data-toggle="collapse" href="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse">
+              <i class="glyphicon glyphicon-search"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="collapse nav navbar-nav nav-collapse slide-down" id="nav-collapse">
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Buscar" />
+            </div>
+            <button type="submit" class="btn"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <img src="images/background.jpeg" class="img-background">
+  <section class="text-center" id="sobre">
+    <h1>Sobre</h1>
+    <p>A codeX é a empresa júnior de computação da UFCG. Aqui colocaremos mais informações a repeito da</p>
+    <p>empresa para que as pessoas que entrarem no site possam conhecer mais sobre a codeX.</p>
+  </section>
+  <section class="text-center" id="equipe">
+    <h1>Nossa Equipe</h1>
+  </section>
+  <section class="text-center" id="servicos">
+    <h1>Serviços</h1>
+  </section>
+  <section class="text-center" id="portfolio">
+    <h1>Portfólio</h1>
+  </section>
+  <section class="text-center" id="contato">
+    <h1>Contato</h1>
+  </section>
 </body>
+
 </html>
