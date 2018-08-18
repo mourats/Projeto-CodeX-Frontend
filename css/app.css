@@ -2,3 +2,23 @@
     width: 100%;
     max-height: 630px;
 }
+
+.circle-gold {
+  background-color: #E3AC1B;
+  border-radius: 100%;
+  width: 71px;
+  height: 67px;
+  float: none;
+  margin: 0 auto;
+}
+
+.img-circle-gold {
+  background-color: rgba(255, 255, 255, 0);
+  width: 58px;
+  height: 58px;
+}
+
+.gold-text {
+  color: #E3AC1B;
+  text-align: center;
+}
