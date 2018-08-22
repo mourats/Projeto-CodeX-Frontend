@@ -12,6 +12,11 @@
   transform: translate(-50%, -50%);
 }
 
+.session {
+  margin-top:30px;
+  margin-bottom:100px;
+}
+
 .circle-gold {
   background-color: #E3AC1B;
   border-radius: 100%;
@@ -69,4 +74,9 @@ height: 250px;
 .gray-note {
   width: 150px;
   height: 150px;
+}
+
+.big-img {
+  width: 250px;
+  height: 170px;
 }
