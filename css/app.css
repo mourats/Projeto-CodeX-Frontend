@@ -28,7 +28,7 @@
 }
 
 .user {
-  position:relative;
+
 }
 
 .user_empty {
@@ -41,4 +41,10 @@ height: 250px;
   background-color: #333333;
   width: 170px;
   height: 80px;
+  margin: 0 auto;
+}
+
+.gray-background{
+  background-color: #333333;
+  opacity: 0.74;
 }
