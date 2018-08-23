@@ -1,4 +1,7 @@
-@font-face {   font-family: Chewy;src: url('font/Chewy.ttf'); }
+@font-face { font-family: Chewy;src: url('font/Chewy.ttf'); }
+@font-face { font-family: Lato; src: url('font/Lato-Regular.ttf'); }
+@font-face { font-family: Glacial Indifference; src: url('font/GlacialIndifference-Bold.otf'); }
+@font-face { font-family: Abril Fatface; src: url('font/AbrilFatface-Regular.ttf'); }
 
 .img-background {
     width: 100%;
@@ -12,6 +15,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.name-session {
+  font-family: Abril Fatface
 }
 
 .session {
@@ -38,8 +45,20 @@
   margin-top:-45px;
 }
 
+.white-text {
+  color: white;
+  font-family: Lato;
+  text-align: center;
+
+}
+
 .gold-text {
   color: #E3AC1B;
+  font-family: Glacial Indifference;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.5px;
+
   text-align: center;
 }
 
@@ -98,5 +117,4 @@ height: 250px;
   color: #47525E;
   font-family: Chewy;
   font-size: 200px;
-
 }
