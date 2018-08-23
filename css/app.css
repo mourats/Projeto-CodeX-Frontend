@@ -1,3 +1,5 @@
+@font-face {   font-family: Chewy;src: url('font/Chewy.ttf'); }
+
 .img-background {
     width: 100%;
     max-height: 630px;
@@ -84,4 +86,17 @@ height: 250px;
 .contact-size {
   margin-left:400px;
   margin-right: 400px;
+}
+
+.bottom-background{
+  background-color: #1F2C3D;
+  height:100%;
+  width:100%
+}
+
+.big-x{
+  color: #47525E;
+  font-family: Chewy;
+  font-size: 200px;
+
 }
