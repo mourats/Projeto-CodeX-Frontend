@@ -21,6 +21,14 @@
   font-family: Abril Fatface
 }
 
+.big-font{
+  font-size: 80px;
+}
+
+.medium-font{
+  font-size: 25px;
+}
+
 .session {
   margin-top:30px;
   margin-bottom:100px;
@@ -49,19 +57,27 @@
   color: white;
 }
 
-.test{
+.margin-large-reduce{
   margin-left: 250px;
   margin-right: 250px;
+}
+
+.margin-small-reduce{
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .lato-font {
   font-family: Lato;
 }
 
+.glacial-font {
+    font-family: Glacial Indifference;
+}
+
 .gold-text {
   color: #E3AC1B;
   font-family: Glacial Indifference;
-  font-size: 14px;
   font-weight: 700;
   line-height: 16.5px;
 
@@ -122,15 +138,34 @@ height: 250px;
 .big-x{
   color: #47525E;
   font-family: Chewy;
-  font-size: 200px;
+  font-size: 250px;
+  text-align: left;
 }
 
 .code{
   color: #E3AC1B;
+  margin-top: 100px;
   font-family: Lato;
-  font-size: 50px;
+  font-size: 80px;
   font-weight: 700;
-  line-height: 25px;
-  width: 189px;
-  text-align: center;
+  text-align: right;
+  position: absolute;
+  margin: auto;
+  z-index:100;
+}
+
+.contact-codex{
+  color: #FFFDFF;
+  font-family: Glacial Indifference;
+  font-size:18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.contact-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
 }
