@@ -47,9 +47,15 @@
 
 .white-text {
   color: white;
-  font-family: Lato;
-  text-align: center;
+}
 
+.test{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.lato-font {
+  font-family: Lato;
 }
 
 .gold-text {
@@ -117,4 +123,14 @@ height: 250px;
   color: #47525E;
   font-family: Chewy;
   font-size: 200px;
+}
+
+.code{
+  color: #E3AC1B;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 25px;
+  width: 189px;
+  text-align: center;
 }
