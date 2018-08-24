@@ -144,6 +144,11 @@ height: 250px;
   font-family: Chewy;
   font-size: 250px;
   text-align: left;
+  margin-bottom: -50px;
+}
+
+.center {
+  text-align: center;
 }
 
 .code{
@@ -160,8 +165,7 @@ height: 250px;
 
 .contact-codex{
   color: #FFFDFF;
-  font-family: Glacial Indifference;
-  font-size:18px;
+  font-size:15px;
   font-weight: 700;
   text-align: left;
 }
