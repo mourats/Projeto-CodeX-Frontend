@@ -99,44 +99,44 @@
   </section>
 
   <!-- EQUIPE -->
-  <section class="text-center" id="equipe">
+  <section class="text-center" id="equipe" ng-controller="myCtrlMembers">
     <div class="container session">
       <div class="row">
         <h1 class="name-session">Nossa Equipe</h1>
       </div>
       <div class="row">
-        <p>Um time preparado para desenvolver a sua solução.</p>
+        <p class="lato-font">Um time preparado para desenvolver a sua solução.</p>
       </div>
       <div class="row">
         <div class="col-sm-4">
-            <img src="images/profile-empty.png" class="user-empty">
+            <img src={{photoUrlOne}} class="member">
             <div class="user-box">
               <br>
-              <p class="gold-text">Beltrano</p>
-              <p class="white-text">Cargo de Beltrano</p>
+              <p class="gold-text">{{nameOne}}</p>
+              <p class="white-text">{{roleOne}}</p>
             </div>
         </div>
         <div class="col-sm-4">
-          <img src="images/profile-empty.png" class="user-empty">
+          <img src={{photoUrlTwo}} class="member">
           <div class="user-box">
             <br>
-            <p class="gold-text">Sicrano</p>
-            <p class="white-text">Cargo de Sicrano</p>
+            <p class="gold-text">{{nameTwo}}</p>
+            <p class="white-text">{{roleTwo}}</p>
           </div>
       </div>
       <div class="col-sm-4">
-          <img src="images/profile-empty.png" class="user-empty">
+          <img src={{photoUrlThree}} class="member">
           <div class="user-box">
             <br>
-            <p class="gold-text">Fulano</p>
-            <p class="white-text">Cargo de Fulano</p>
+            <p class="gold-text">{{nameThree}}</p>
+            <p class="white-text">{{roleThree}}</p>
           </div>
       </div>
       </div>
   </div>
-
-<!-- SERVIÇOS-->
   </section>
+  
+<!-- SERVIÇOS-->
   <section class="text-center" id="servicos" ng-controller="myCtrlServices">
     <div class="container session gray-background">
       <div class="row">

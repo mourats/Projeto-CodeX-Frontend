@@ -38,4 +38,40 @@ const portifolio = [
 }
 ];
 
-const about = 
+const about = {
+ "description": "A codeX é a empresa júnior de computação da UFCG. Aqui colocaremos mais informações a repeito da empresa para que as pessoas que entrarem no site possam conhecer mais sobre a codeX.",
+
+"mission": "Aqui vai ser descrito em algumas palavras a missão da empresa.",
+
+"vision": "Aqui vai ser descrito em algumas palavras a visão da empresa.",
+
+ "values": "Aqui vai ser descrito em algumas palavras os valores da empresa."
+}
+
+const members = [
+  {
+   "name": "Sicrano",
+
+  "role": "Cargo de Sicrano",
+
+  "photoUrl": "images/profile-empty.png"
+},
+
+{
+ "name": "Beltrano",
+
+"role": "Cargo de Beltrano",
+
+"photoUrl": "images/profile-empty.png"
+},
+
+{
+ "name": "Fulano",
+
+"role": "Cargo de Fulano",
+
+"photoUrl": "images/profile-empty.png"
+}
+
+
+]
