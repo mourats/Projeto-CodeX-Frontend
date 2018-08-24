@@ -1,4 +1,4 @@
-app.controller('myCtrl', function($scope, $http) {
+app.controller('myCtrlServices', function($scope, $http) {
   $http.get("https://codex-api.herokuapp.com/services")
   .then(function(response) {
       $scope.webDevelopment = response.data.webDevelopment;
