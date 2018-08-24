@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" ng-app="codex">
+<html lang="pt-br" ng-app="myApp">
 
 <head>
   <meta charset="UTF-8">
@@ -13,9 +13,11 @@
   <script type="text/javascript" src="lib/angular/angular.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/app.css">
   <script src="js/app.js"></script>
-  <script src="js/controllers/codexCtrl.js"></script>
+  <script src="js/controllers/servicesCtrl.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" ng-controller="myCtrl">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="collapse navbar-collapse" id="navbar-collapse-3">
@@ -53,6 +55,7 @@
   </div>
 
 <!-- SOBRE-->
+
   <section class="text-center" id="sobre">
     <div class="container session">
       <div class="row">
@@ -142,17 +145,17 @@
         <div class="col-sm-4">
             <img src="images/pc.png" class="gray-pc"><br><br>
             <p class="gold-text">Desenvolvimento Web</p>
-            <p class="white-text lato-font">Descrição em algumas palavras sobre o serviço de desenvolvimento Web.</p>
+            <p class="white-text lato-font">{{webDevelopment}}</p>
         </div>
         <div class="col-sm-4">
           <img src="images/smartphone.png" class="gray-phone"><br><br>
           <p class="gold-text">Aplicativos Mobile</p>
-          <p class="white-text lato-font">Descrição em algumas palavras sobre o serviço de desenvolvimento Mobile.</p>
+          <p class="white-text lato-font">{{mobileApps}}</p>
       </div>
       <div class="col-sm-4">
           <img src="images/notebook.png" class="gray-note">
           <p class="gold-text">Desenvolvimento de Sistemas</p>
-          <p class="white-text lato-font">Descrição em algumas palavras sobre o serviço de desenvolvimento e aprimoramento de Sistemas.</p>
+          <p class="white-text lato-font">{{systemsDevelopment}}</p>
           <br><br>
       </div>
       </div>
