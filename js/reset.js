@@ -17,3 +17,25 @@ const contact = {
 
  "address": "Universidade Federal de Campina Grande UFCG, Endereço R. Aprígio Veloso, 882 - Universitário, Campina Grande - PB, 58429-900"
 }
+
+const portifolio = [
+  {
+ "name": "Nome do Projeto/Site/aplicativo",
+
+ "photoUrl": "images/notebook-on-the-ground.jpeg"
+},
+
+{
+ "name": "Nome do Projeto/Site/aplicativo",
+
+ "photoUrl": "images/notebook-on-the-table.jpeg"
+},
+
+{
+ "name": "Nome do Projeto/Site/aplicativo",
+
+ "photoUrl": "images/smartphone-on-the-hand.jpeg"
+}
+];
+
+const about = 

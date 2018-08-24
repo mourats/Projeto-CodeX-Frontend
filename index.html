@@ -17,6 +17,7 @@
   <script src="js/controllers/contactCtrl.js"></script>
   <script src="js/controllers/membersCtrl.js"></script>
   <script src="js/controllers/portifolioCtrl.js"></script>
+    <script src="js/controllers/aboutCtrl.js"></script>
 </head>
 
 
@@ -59,15 +60,13 @@
 
 <!-- SOBRE-->
 
-  <section class="text-center" id="sobre">
+  <section class="text-center" id="sobre" ng-controller="myCtrlAbout">
     <div class="container session">
       <div class="row">
     <h1 class="name-session">Sobre</h1>
     </div>
     <div class="row">
-    <p class="lato-font margin-large-reduce">A codeX é a empresa júnior de computação da UFCG. Aqui colocaremos mais
-      informações a repeito da empresa para que as pessoas que entrarem no site
-      possam conhecer mais sobre a codeX.</p>
+    <p class="lato-font margin-large-reduce">{{description}}</p>
     </div>
       <br>
       <div class="row">
@@ -77,7 +76,7 @@
           </div>
           <br>
           <p class="gold-text">Missão</p>
-          <p class="lato-font margin-small-reduce">Aqui vai ser descrito em algumas palavras a missão da empresa.</p>
+          <p class="lato-font margin-small-reduce">{{mission}}</p>
         </div>
         <div class="col-sm-4">
           <div class="circle-gold">
@@ -85,7 +84,7 @@
         </div>
         <br>
         <p class="gold-text">Visão</p>
-        <p class="lato-font margin-small-reduce">Aqui vai ser descrito em algumas palavras a visão da empresa.</p>
+        <p class="lato-font margin-small-reduce">{{vision}}</p>
       </div>
       <div class="col-sm-4">
         <div class="circle-gold">
@@ -93,7 +92,7 @@
         </div>
         <br>
         <p class="gold-text">Valores</p>
-        <p class="lato-font margin-small-reduce">Aqui vai ser descrito em algumas palavras a missão da empresa.</p>
+        <p class="lato-font margin-small-reduce">{{values}}</p>
       </div>
       </div>
     </div>
