@@ -1,0 +1,19 @@
+{
+  "name": "projeto-codex-frontend",
+  "version": "1.0.0",
+  "description": "codex web site",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagomoura21/Projeto-CodeX-Frontend.git"
+  },
+  "author": "thiagomoura21",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagomoura21/Projeto-CodeX-Frontend/issues"
+  },
+  "homepage": "https://github.com/thiagomoura21/Projeto-CodeX-Frontend#readme"
+}

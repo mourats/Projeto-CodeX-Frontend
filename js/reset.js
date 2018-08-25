@@ -72,6 +72,11 @@ const members = [
 
 "photoUrl": "images/profile-empty.png"
 }
-
-
 ]
+
+const email = {
+  "senderName": "Thiago",
+  "senderEmail": "thiago.moura@ccc.ufcg.edu.br",
+  "subject": "Irineu",
+  "body": "Você não sabe nem eu"
+}
