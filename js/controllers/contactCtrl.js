@@ -1,4 +1,4 @@
-app.controller('myCtrlContact', function($scope, $http) {
+app.controller('myCtrlContact', function($scope, $http, base64) {
   $http.get("https://codex-api.herokuapp.com/contact")
   .then(function(response) {
     $scope.description = response.data.description;
@@ -17,7 +17,13 @@ app.controller('myCtrlContact', function($scope, $http) {
   "body": $scope.body
   };
 
-  $http.post('https://codex-api.herokuapp.com/contact/email', email).
+  var auth =  base64.encode('admin' + ":" + 'admin');
+
+  $http.post('https://codex-api.herokuapp.com/contact/email', {
+    
+  
+  headers: {Authorization: 'Basic ' + auth },
+  body: email}).
     then(function (response) {
 
   if (response.status == 200)

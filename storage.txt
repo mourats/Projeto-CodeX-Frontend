@@ -49,3 +49,9 @@
               <li><a class= "glacial-font" href="#contato">Contato</a></li>
               <li><a class= "glacial-font" ng-click="admin_function()" href "">Adminstrador</a></li>
               
+
+              $('#myModal').modal('dispose')
+
+              $scope.admin_function = function(){
+  $('#myModal').modal('show')
+};
