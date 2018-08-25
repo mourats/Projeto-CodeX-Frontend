@@ -10,13 +10,8 @@ $scope.admin_function = function(){
 };
 
 $scope.login = function(){
- var auth =  base64.encode($scope.usuario + ":" + $scope.senha);
-
- $http.get('https://codex-api.herokuapp.com/', {
-  headers: {Authorization: 'Basic ' + auth }
-  }).then(function(response) {}, function(response) {
-          console.log(response)
-      });
+ var auth =  base64.encode('admin' + ":" + 'admin');
+  return auth;
 }
 
-});
+}); 
