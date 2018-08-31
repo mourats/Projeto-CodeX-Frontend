@@ -4,4 +4,4 @@ app.use(express.static(__dirname + '/')); //aqui você define onde está o index
 app.get('/', function(req, res){
   res.redirect('/index.html');
 });
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || port);
